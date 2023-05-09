@@ -1,0 +1,55 @@
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.pop {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1120px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ヘッダー */
+
+header {
+  padding: 27px 0;
+  background-color: #f0fff0;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+.logo span {
+  color: #80ba4a;
+}
+.header_menu li {
+  margin-left: 40px;
+}
+.header_menu li a {
+  transition: 0.3s;
+}
+.header_menu li a:hover {
+  color: #80ba4a;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+  header .container {
+    justify-content: center;
+  }
+  .header_menu li {
+    margin: 20px 16px 0;
+  }
+}
